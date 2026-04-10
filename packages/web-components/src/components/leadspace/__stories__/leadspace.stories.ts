@@ -190,9 +190,7 @@ export const SuperWithVideo = (args) => {
       <c4d-background-media slot="image" opacity="100">
         <c4d-video-player-container-v7
           video-id="0_ibuqxqbe"
-          auto-play
-          muted
-          playing-mode="background"></c4d-video-player-container-v7>
+          playerMode="background" ></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -339,7 +337,7 @@ export const TallWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="background"></c4d-video-player-container-v7>
+          playerMode="background"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
@@ -486,7 +484,7 @@ export const MediumWithVideo = (args) => {
           video-id="0_ibuqxqbe"
           auto-play
           muted
-          playing-mode="background"></c4d-video-player-container-v7>
+          playing-mode="inline"></c4d-video-player-container-v7>
       </c4d-background-media>
     </c4d-leadspace>
   `;
